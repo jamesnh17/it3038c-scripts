@@ -11,6 +11,8 @@ $IP = getIP
 $HN = hostname
 $HV = $Host.Version.Major
 $GD = GDate
-$Body = "This machine's IP is $IP. User is Administrator. Hostname is $HN. PowerShell Version $HV. Today's Date is $GD."
+$UN = $env:USERNAME
+$Body = "This machine's IP is $IP. User is $UN. Hostname is $HN. PowerShell Version $HV. Today's Date is $GD."
+#Write-Host($Body)
 
 $Body | Out-File C:\Lab3.txt
