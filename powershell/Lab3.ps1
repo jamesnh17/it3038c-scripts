@@ -13,6 +13,6 @@ $HV = $Host.Version.Major
 $GD = GDate
 $UN = $env:USERNAME
 $Body = "This machine's IP is $IP. User is $UN. Hostname is $HN. PowerShell Version $HV. Today's Date is $GD."
-#Write-Host($Body)
+Write-Host($Body)
 
-$Body | Out-File C:\Lab3.txt
+#$Body | Out-File C:\Lab3.txt
