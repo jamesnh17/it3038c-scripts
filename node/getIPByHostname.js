@@ -1,13 +1,13 @@
 const dns = require('dns');
 
 const hostnameLookup = (hostname) => {
-    dns.hostnameLookup(hostname, (err, addresses, family) => {
+    dns.lookup(hostname, (err, addresses, family) => {
         console.log(addresses);
     });
 }
 
 if (process.argv.length <=2) {
-    console.log("Usage: " + __filename + " hostname.com")
+    console.log("USAGE: " + __filename + " IPADDR")
     process.exit(-1)
 }
 
