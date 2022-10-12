@@ -1,0 +1,5 @@
+Citations:
+
+Baeldung. “How to Change Terminal Output Color in Linux?” Baeldung on Linux, 8 May 2020, https://www.baeldung.com/linux/terminal-output-color. 
+
+“Netcat Command in Linux - A Complete Guide.” LinuxForDevices, 31 Dec. 2021, https://www.linuxfordevices.com/tutorials/netcat-command-in-linux. 

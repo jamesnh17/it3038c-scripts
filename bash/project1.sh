@@ -2,6 +2,7 @@
 
 # Uses Netcat to check if a secure connection to google can be made, if not then the network adapter/dhcp is reset
 # Uses SUDO, therefore an admin password must be provided in order to reset the adapter
+# Thanks to linuxfordevices.com/tutorials & baeldung.com/linux for the tutorials!
 
 RED_FONT=`tput setaf 1`
 RESET_FONT=`tput sgr0`
