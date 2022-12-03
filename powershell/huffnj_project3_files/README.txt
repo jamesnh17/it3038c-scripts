@@ -1,3 +1,5 @@
+# https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.3
+# Thanks to the above link at Microsoft for the powershell documentation and tutorials
 
 # Example ReadMe, list of possible scripts to aid novice helpdesk personnel
 # list_installed.ps1  is a working example of a possible script you can build from this list
